@@ -1,0 +1,96 @@
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo b {
+    font-size: 24px;
+    color: #ff5722; /* Оранжевый цвет */
+  }
+  
+  .balance {
+    margin-left: auto;
+    font-size: 20px;
+    color: #4caf50; /* Зеленый цвет */
+  }
+  
+  .header {
+    background-color: #f44336; /* Красный цвет */
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    list-style-type: none;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  
+  .nav-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-menu b {
+    color: #fff;
+  }
+  
+  .sort {
+    margin-left: auto;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .all_p {
+    padding: 20px;
+    font-size: 24px;
+    color: #333; /* Черный цвет */
+  }
+  
+  .pizza-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .pizza1,
+  .pizza2,
+  .pizza3,
+  .pizza4 {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .pizza-info {
+    background-color: #fafafa; /* Светло-серый цвет */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .pizza-info b {
+    color: #333; /* Черный цвет */
+  }
+  
+  .pizza-info div {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
